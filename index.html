@@ -3,68 +3,77 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="shortcut icon" href="./img/cats.png" type="image/x-icon" />
     <title>PioCamp</title>
   </head>
   <body>
-    <header>
-      <div>
-        <p>PIOCAMP 2018 | CSS WORKSHOP</p>
-      </div>
-      <h1>Oriana</h1>
-      <nav>
-        <ul>
-          <li>Github</li>
-          <li>Instagram</li>
-          <li>Twitter</li>
-          <li>Linkendi</li>
+    <header class="header">
+      <div class="brand"></div>
+      <h1 class="title">Oriana</h1>
+      <nav class="nav">
+        <ul class="flex-container">
+          <li><a href="https://github.com/oriananohemi">.Github </a></li>
+          <li>
+            <a href="https://www.instagram.com/oriananohemi/">.Instagram</a>
+          </li>
+          <li><a href="https://twitter.com/oriananohemi_">.Twitter </a></li>
+          <li>
+            <a href="https://www.linkedin.com/in/oriananohemi/">.Linkedin </a>
+          </li>
         </ul>
       </nav>
     </header>
-    <section>
-      <h2>About me</h2>
-      <ul>
-        <li>I'm Frontend Developer</li>
-        <li>I live in Bogota</li>
-        <li>I like candy</li>
-      </ul>
-    </section>
-    <section>
-      <h2>I'm very passionate about:</h2>
-      <div>
-        <div>
-          <h3>Books</h3>
-          <img src="./img/book.png" alt="" />
+    <div class="background-me">
+      <section class="section">
+        <h2 class="subtitle-section">About me</h2>
+        <ul>
+          <li>I'm Frontend Developer</li>
+          <li>I live in Bogota</li>
+          <li>I like cats</li>
+        </ul>
+      </section>
+    </div>
+    <div class="container">
+      <section class="section">
+        <h2 class="subtitle-section">I'm very passionate about:</h2>
+        <div class="flex-container">
+          <div class="card background-yellow">
+            <h3>Books</h3>
+            <img src="./img/book.png" alt="" />
+          </div>
+          <div class="card background">
+            <h3>Courses</h3>
+            <img src="./img/courses.png" alt="" />
+          </div>
+          <div class="card background-yellow">
+            <h3>Develop</h3>
+            <img src="./img/develop.png" alt="" />
+          </div>
         </div>
-        <div>
-          <h3>Courses</h3>
-          <img src="./img/courses.png" alt="" />
+      </section>
+      <section class="section background">
+        <h2 class="subtitle-section">My hobbies:</h2>
+        <div class="flex-container">
+          <div class="card">
+            <h3>Eat</h3>
+            <img src="./img/eat.png" alt="" />
+          </div>
+          <div class="card background-yellow">
+            <h3>Plants</h3>
+            <img src="./img/plants.png" alt="" />
+          </div>
+          <div class="card">
+            <h3>Movies</h3>
+            <img src="./img/movie.png" alt="" />
+          </div>
         </div>
-        <div>
-          <h3>Develop</h3>
-          <img src="./img/develop.png" alt="" />
-        </div>
-      </div>
-    </section>
-    <section>
-      <h2>My hobbies:</h2>
-      <div>
-        <div>
-          <h3>Eat</h3>
-          <img src="./img/eat.png" alt="" />
-        </div>
-        <div>
-          <h3>Plants</h3>
-          <img src="./img/plants.png" alt="" />
-        </div>
-        <div>
-          <h3>Movies</h3>
-          <img src="./img/movie.png" alt="" />
-        </div>
-      </div>
-    </section>
-    <footer>
-      .Site by <a href="https://github.com/oriananohemi">orianannohemi</a> based
-      on the project
+      </section>
+    </div>
+    <footer class="brand">
+      .Site by <a href="https://github.com/oriananohemi">orianannohemi</a>
+      <br />
+      based on the project
       <a href="https://github.com/teffcode/piocamp-css-workshop"
         >piocamp-css-workshop</a
       >
